@@ -35,7 +35,8 @@ myvar <= soma && 'é menor ou igual soma'
 
 // Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
 // var div;
-const divisao = (a, b) = a/b
-
+function divisao(a, b) {
+    return a/b;
+}
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 divisao(10, 2);
